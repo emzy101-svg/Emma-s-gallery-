@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emma's Gallery</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Emma's Gallery</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Discover Unique AI‑Generated Art</h1>
+          <p class="lead">Emma's Gallery is a collection of AI-generated digital art, blending creativity and technology.</p>
+          <a class="btn primary" href="gallery.html">Browse the Gallery</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About Emma's Gallery</h2>
+        <p>Emma's Gallery curates experimental, AI-generated artwork that explores color, form, and imagination. Each piece is produced by generative models and prepared for digital sale — contact Emma to purchase.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2025 Emma's Gallery. All rights reserved.</small>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.querySelectorAll('footer small')[0].textContent = '© ' + (new Date()).getFullYear() + ' Emma\'s Gallery. All rights reserved.';</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
